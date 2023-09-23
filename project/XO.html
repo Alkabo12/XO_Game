@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">   
+    <title >X-O</title>
+    <link rel="stylesheet" href="XO.CSS">
+</head>
+<body>  
+    
+
+    <div class="game">
+        
+        <div  class="tictoc"><span class="play">X-O</span>Game</div><br>
+        <div class="matrix"  id="1"onclick="game(this.id)" ></div>
+        <div class="matrix" id="2"onclick="game(this.id)"></div>
+        <div class="matrix" id="3"onclick="game(this.id)"></div>
+
+        <div class="matrix" id="4"onclick="game(this.id)"></div>
+        <div class="matrix" id="5"onclick="game(this.id)"></div>
+        <div class="matrix" id="6"onclick="game(this.id)"></div>
+
+        <div class="matrix" id="7"onclick="game(this.id)"></div>
+        <div class="matrix" id="8"onclick="game(this.id)"></div>
+        <div class="matrix" id="9"onclick="game(this.id)"></div>
+        
+    </div>
+    <div class="Heuristic">
+      <form name="form1">
+         <input type="button" value="calculate "  onclick="send_player()"/><br>
+       <br>  Heuristic X<input type="text"  disabled="disabled"  size="4" name="txt2" />
+       <br>  Heuristic O<input type="text"  disabled="disabled"  size="4" name="txt3" />
+       <br> Heuristic E(n)<input type="text"  disabled="disabled"  size="4" name="txt4" />
+      </form>
+      
+      </div>
+    <div class="song">
+        <audio controls autostart loop >
+            <source src="El Ghazala Ray2a.m4a">
+          </audio><br>
+          <audio controls autostart loop >
+            <source src="re7_madam.m4a">
+          </audio><br>
+          <audio controls autostart loop >
+            <source src="seto_ana.m4a">
+          </audio>
+          <audio controls autostart loop >
+            <source src="m4 tmsal.m4a">
+          </audio>
+    </div>
+  
+  <script src="X-O.js"></script>
+
+    
+</body>
+</html>

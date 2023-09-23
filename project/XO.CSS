@@ -1,0 +1,47 @@
+body{
+    background-image: url('back.jpg');
+    background-size: cover;
+}
+.song{
+    text-align: center;
+    margin: 50px;
+    color: rgb(1, 132, 247);
+    width: 25px;
+ }
+.game{
+    width: 255px;
+text-align: center;
+font-family: system-ui;
+margin: auto;
+font-weight: 500;  
+
+}
+
+.play{
+ color: orange;
+}
+.tictoc{
+    background-color: blue;
+    font-size: 30px;
+}
+.matrix{
+    color: aliceblue;
+    width: 80px;
+    height: 80px;
+    background: red;
+    float: left;
+    margin: 2px;
+    font-size: 50px;
+}
+.matrix:hover{
+    background: black;
+    cursor: pointer;
+}
+.Heuristic{
+    width: 255px;
+    text-align: center;
+    font-family: system-ui;
+    margin: auto;
+    font-weight: 500;  
+   color: aqua;
+}
